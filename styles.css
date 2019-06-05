@@ -176,7 +176,10 @@ img:hover {
   }
 }
 /* iPhone 4 Styles */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 327px) {
+  p {
+    font-size: 10px;
+  }
   .title-top {
     font-size: 14px;
   }
