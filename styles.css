@@ -28,6 +28,23 @@ section {
   padding: 20px 10px;
   border-radius:10px;
 }
+.footer {
+  justify-content: center;
+  display: flex;
+  flex-direction: flex;
+}
+.footer {
+  margin-bottom: 1%;
+  border: 3px solid #E3CEF6;
+  background: #380B61;
+  overflow: hidden;
+  padding: 10px 5px;
+  border-radius:10px;
+}
+.footer-title{
+  color: #E3CEF6;
+  font-size: 18px;
+}
 .title{
   color: #380B61;
   font-size: 28px;
@@ -39,6 +56,10 @@ section {
   overflow: hidden;
   padding: 5px 5px;
   border-radius:10px;
+}
+.footer-text{
+  color: #E3CEF6;
+  font-size: 10px;
 }
 .photos {
   object-fit: contain;
@@ -134,6 +155,10 @@ img:hover {
     color: #380B61;
     font-size: 18px;
   }
+  .footer-title{
+    color: #E3CEF6;
+    font-size: 15px;
+  }
 }
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
@@ -173,6 +198,10 @@ img:hover {
   .title{
     color: #380B61;
     font-size: 22px;
+  }
+  .footer-title{
+    color: #E3CEF6;
+    font-size: 20px;
   }
 }
 /* iPhone 4 Styles */
@@ -216,5 +245,9 @@ img:hover {
   .title{
     color: #380B61;
     font-size: 15px;
+  }
+  .footer-title{
+    color: #E3CEF6;
+    font-size: 12px;
   }
 }
